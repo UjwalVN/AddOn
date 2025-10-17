@@ -1,0 +1,111 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #a1d8ff, #e0f7ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background: linear-gradient(180deg, #ffffffcc, #f2faff);
+    backdrop-filter: blur(10px);
+    border: 1px solid #cceaff;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 150, 255, 0.3);
+    padding: 30px;
+    width: 360px;
+    text-align: center;
+}
+
+
+h1 {
+    color: #0077cc;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 0 0 8px #bde0ff;
+}
+
+
+.add-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 8px;
+}
+
+.add-form input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #b3e0ff;
+    background-color: #f9feff;
+    font-size: 14px;
+}
+
+.add-form button {
+    background: linear-gradient(180deg, #33ccff, #0099ff);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.add-form button:hover {
+    background: linear-gradient(180deg, #0099ff, #0077cc);
+    box-shadow: 0 0 10px #33ccff;
+}
+
+
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-list li {
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 100, 255, 0.1);
+    transition: transform 0.15s;
+}
+
+.task-list li:hover {
+    transform: scale(1.03);
+}
+
+.task-list span {
+    font-size: 15px;
+    color: #004c80;
+}
+
+
+.delete-btn {
+    text-decoration: none;
+    color: #ff3366;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.delete-btn:hover {
+    color: #ff0033;
+    text-shadow: 0 0 6px #ff80a0;
+}
+
+
+.no-tasks {
+    color: #005fa3;
+    font-style: italic;
+}
